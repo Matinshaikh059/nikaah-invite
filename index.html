@@ -35,20 +35,20 @@
     <svg class="svg-library" aria-hidden="true">
       <defs>
         <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="var(--ornament-dark)" />
-          <stop offset=".22" stop-color="var(--ornament-bright)" />
-          <stop offset=".48" stop-color="var(--ornament-mid)" />
-          <stop offset=".72" stop-color="var(--ornament-glow)" />
-          <stop offset="1" stop-color="var(--ornament-deep)" />
+          <stop offset="0" style="stop-color: var(--ornament-dark)" />
+          <stop offset=".22" style="stop-color: var(--ornament-bright)" />
+          <stop offset=".48" style="stop-color: var(--ornament-mid)" />
+          <stop offset=".72" style="stop-color: var(--ornament-glow)" />
+          <stop offset="1" style="stop-color: var(--ornament-deep)" />
         </linearGradient>
         <linearGradient id="goldFill" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="var(--ornament-fill-highlight)" />
-          <stop offset=".45" stop-color="var(--ornament-fill-mid)" />
-          <stop offset="1" stop-color="var(--ornament-fill-deep)" />
+          <stop offset="0" style="stop-color: var(--ornament-fill-highlight)" />
+          <stop offset=".45" style="stop-color: var(--ornament-fill-mid)" />
+          <stop offset="1" style="stop-color: var(--ornament-fill-deep)" />
         </linearGradient>
         <g id="leaf">
-          <path d="M0 0 C10 -15 26 -17 34 -14 C25 -2 13 4 0 0Z" fill="url(#goldFill)" stroke="var(--ornament-stroke)" stroke-width="1" />
-          <path d="M2 -1 Q17 -8 31 -13" fill="none" stroke="var(--ornament-line)" stroke-width="1" />
+          <path d="M0 0 C10 -15 26 -17 34 -14 C25 -2 13 4 0 0Z" fill="url(#goldFill)" stroke-width="1" style="stroke: var(--ornament-stroke)" />
+          <path d="M2 -1 Q17 -8 31 -13" fill="none" stroke-width="1" style="stroke: var(--ornament-line)" />
         </g>
         <g id="sprig">
           <path d="M0 0 C18 -15 28 -33 39 -55 C48 -73 54 -83 65 -91" fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" />
@@ -56,13 +56,13 @@
           <use href="#leaf" transform="translate(25 -31) rotate(164) scale(.62)" />
           <use href="#leaf" transform="translate(34 -48) rotate(-20) scale(.65)" />
           <use href="#leaf" transform="translate(46 -67) rotate(160) scale(.56)" />
-          <path d="M39 -55 C20 -60 17 -76 23 -84 C35 -80 42 -68 39 -55Z" fill="url(#goldFill)" stroke="var(--ornament-stroke)" stroke-width="1" />
-          <path d="M39 -55 Q31 -70 24 -82" fill="none" stroke="var(--ornament-line)" stroke-width="1" />
+          <path d="M39 -55 C20 -60 17 -76 23 -84 C35 -80 42 -68 39 -55Z" fill="url(#goldFill)" stroke-width="1" style="stroke: var(--ornament-stroke)" />
+          <path d="M39 -55 Q31 -70 24 -82" fill="none" stroke-width="1" style="stroke: var(--ornament-line)" />
         </g>
         <g id="curl">
           <path d="M0 0 C18 -4 28 -18 24 -31 C20 -43 4 -41 4 -30 C4 -22 14 -20 17 -27" fill="none" stroke="url(#gold)" stroke-width="2.1" stroke-linecap="round" />
           <path d="M0 0 C-13 -8 -19 -20 -15 -31 C-10 -42 3 -38 2 -28" fill="none" stroke="url(#gold)" stroke-width="1.7" stroke-linecap="round" />
-          <circle cx="0" cy="0" r="2.7" fill="url(#goldFill)" stroke="var(--ornament-stroke)" stroke-width=".7" />
+          <circle cx="0" cy="0" r="2.7" fill="url(#goldFill)" stroke-width=".7" style="stroke: var(--ornament-stroke)" />
         </g>
         <g id="corner">
           <path d="M0 0 C25 2 37 16 44 35 C52 55 42 75 25 78 C10 80 4 67 12 58 C18 52 27 57 25 64 M44 35 C63 25 77 13 92 7 C110 0 123 6 126 18 C129 29 116 36 109 27 C104 20 112 15 117 20 M25 78 C23 96 12 111 4 128 C-5 147 3 165 18 170 M4 128 C-14 126 -25 115 -24 101 C-23 89 -11 89 -8 99" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round" />
@@ -81,17 +81,17 @@
           <circle cx="-14" cy="78" r="2.2" fill="url(#goldFill)" />
         </g>
         <g id="diamond">
-          <path d="M0 -15 L7 0 L0 15 L-7 0Z" fill="url(#goldFill)" stroke="var(--ornament-stroke)" stroke-width="1" />
-          <path d="M0 -9 L3 0 L0 9 L-3 0Z" fill="var(--ornament-fill-highlight)" opacity=".85" />
-          <path d="M-24 0 L-8 -4 L-4 0 L-8 4Z M24 0 L8 -4 L4 0 L8 4Z" fill="url(#goldFill)" stroke="var(--ornament-stroke)" stroke-width=".8" />
-          <circle cx="0" cy="0" r="2.4" fill="var(--ornament-diamond)" />
+          <path d="M0 -15 L7 0 L0 15 L-7 0Z" fill="url(#goldFill)" stroke-width="1" style="stroke: var(--ornament-stroke)" />
+          <path d="M0 -9 L3 0 L0 9 L-3 0Z" opacity=".85" style="fill: var(--ornament-fill-highlight)" />
+          <path d="M-24 0 L-8 -4 L-4 0 L-8 4Z M24 0 L8 -4 L4 0 L8 4Z" fill="url(#goldFill)" stroke-width=".8" style="stroke: var(--ornament-stroke)" />
+          <circle cx="0" cy="0" r="2.4" style="fill: var(--ornament-diamond)" />
         </g>
         <g id="topBottomFlourish">
           <path d="M0 0 H150 M174 0 H324" stroke="url(#gold)" stroke-width="1.7" />
           <path d="M0 5 H137 M187 5 H324" stroke="url(#gold)" stroke-width=".8" opacity=".9" />
           <use href="#diamond" transform="translate(162 2.5) scale(.72)" />
-          <circle cx="8" cy="0" r="2" fill="var(--ornament-dot)" />
-          <circle cx="316" cy="0" r="2" fill="var(--ornament-dot)" />
+          <circle cx="8" cy="0" r="2" style="fill: var(--ornament-dot)" />
+          <circle cx="316" cy="0" r="2" style="fill: var(--ornament-dot)" />
         </g>
         <symbol id="gold-scrollwork-frame" viewBox="0 0 680 1020" preserveAspectRatio="none">
           <rect x="27" y="27" width="626" height="966" rx="1" fill="none" stroke="url(#gold)" stroke-width="1.8" />
