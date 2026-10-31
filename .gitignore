@@ -1,0 +1,13 @@
+# Local editor/system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Optional: ignore generated files if you add any later
+*.log
+
+# Keep local assets private except for the social link preview image.
+assets/*
+!assets/share-preview.jpg
